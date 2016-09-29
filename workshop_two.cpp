@@ -39,7 +39,7 @@ T addition(T a, T b) {
 int main()
 {
 	// Part 1 Structures and Loops---------------------------------------------
-	cout << "*** Part 1 ***"" << endl;
+	cout << "\n*** Part 1 ***" << endl;
 	
 	// declare new integer for the user's choice
 	int num_choice;
@@ -83,13 +83,14 @@ int main()
 	}
 	
 	// Part 2 -----------------------------------------------------------------
+	cout << "\n*** Part 2 ***" << endl;
 	
 	// Calling the method repeat_word with the parameters 10 and "Hello"
 	// See the above definition, since we must put it before main
 	repeat_word(10, "Hello!");
 	
 	// Part 3 -----------------------------------------------------------------
-	
+	cout << "\n*** Part 3 ***" << endl;
 	// We are calling the templated method with a type int
 	int one = 20;
 	int two = 10;
